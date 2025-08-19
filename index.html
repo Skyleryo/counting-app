@@ -1,16 +1,16 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div id="page">
-        <h1>Anime episodes watched today</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()" window.increment = increment;>INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous entries:</p>
-        <script src= "index.js" type="module">
-        </script>
-        </div>
-    </body>
+=<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1>Anime episodes watched today</h1>
+      <h2 id="count-el">0</h2>
+      <button id="increment-btn">INCREMENT</button>
+      <button id="save-btn">SAVE</button>
+      <p id="save-el">Previous entries:</p>
+    </div>
+    <!-- Keep type="module" so Vite works -->
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
